@@ -3,13 +3,20 @@ using namespace std;
 int main (){
 int num;
 cout<<"Enter the number ";
-cin>>num;
+// cin>>num;
+// if(num%2 == 0){
+//     cout<<num<<" is even";
+// } else{
+//     cout<<num<<" is odd";
+// }
 
-if(num%2 == 0){
+cin>>num;  // using binary number concept, we know that bit of even is one 
+int rem =  num % 2;
+if(rem == 0){
     cout<<num<<" is even";
-} else{
+}else {
     cout<<num<<" is odd";
 }
-
-    return 0;
+    
+return 0;
 }
