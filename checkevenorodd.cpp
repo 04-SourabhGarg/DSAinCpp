@@ -10,7 +10,7 @@ cout<<"Enter the number ";
 //     cout<<num<<" is odd";
 // }
 
-cin>>num;  // using binary number concept, we know that bit of even is one 
+cin>>num;  // using binary number concept, we know that last bit of even is zero
 int rem =  num % 2;
 if(rem == 0){
     cout<<num<<" is even";
